@@ -10,25 +10,24 @@
 > - Create routing - implements dependencies - `2hs`
 > - Create environmet for testing #(STAGE QA) - `pending`
 > - Views & Sections - VERSION DESKTOP 1920 x 1080
-> - Home Views -> Sections:
-                > - Slide Carousel section - `1hs`
-                > - Section Items Dropdown - `1,5hs`
-                > - Section Function - `1,5hs`
-                > - Section About - `pending`
-                > - Section Clients - `pending`
-                > - Section Plains - `pending`
-                > - Section Questions - `pending`
-                > - Section Footer - `pending`
-
+> - Home Views  Sections:
+> - Slide Carousel section - `1hs`
+> - Section Items Dropdown - `1,5hs`
+> - Section Function - `1,5hs`
+> - Section About - `pending`
+> - Section Clients - `pending`
+> - Section Plains - `pending`
+> - Section Questions - `pending`
+> - Section Footer - `pending`
 > Views & Sections - MOBILE VERSION
 > - Home Views -> Sections:
-                > - Slide Carousel section - `pending`
-                > - Section Items Dropdown - `pending`
-                > - Section Function - `pending`
-                > - Section About - `pending`
-                > - Section Clients - `pending`
-                > - Section Plains - `pending`
-                > - Section Questions - `pending`
-                > - Section Footer - `pending`
+> - Slide Carousel section - `pending`
+> - Section Items Dropdown - `pending`
+> - Section Function - `pending`
+> - Section About - `pending`
+> - Section Clients - `pending`
+> - Section Plains - `pending`
+> - Section Questions - `pending`
+> - Section Footer - `pending`
 >
 
