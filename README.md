@@ -10,7 +10,9 @@
 > - Create routing - implements dependencies - `2hs`
 > - Create environmet for testing - stage QA - `pending`
 > - Views & Sections - VERSION DESKTOP 1920 x 1080
+>
 
+> [!NOTE]
 > Home Views  Sections:
 > - Slide Carousel section - `1hs`
 > - Section Items Dropdown - `1,5hs`
@@ -20,7 +22,9 @@
 > - Section Plains - `pending`
 > - Section Questions - `pending`
 > - Section Footer - `pending`
+>
 
+> [!NOTE]
 > Views & Sections - MOBILE VERSION
 > - Home Views -> Sections:
 > - Slide Carousel section - `pending`
