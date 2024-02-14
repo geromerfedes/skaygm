@@ -1,7 +1,6 @@
 > [!IMPORTANT]
 > - `Node Version 20.11.0`
-> Date start project (DD-MM-AAAA)
-> - `13-02-2024`
+> - Date start project (DD-MM-AAAA) `13-02-2024`
 >
 
 > [!NOTE]
