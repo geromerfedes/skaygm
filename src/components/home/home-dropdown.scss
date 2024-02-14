@@ -1,0 +1,51 @@
+.section-dp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4%;
+  margin: 5rem 0;
+
+  .subtitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 120px;
+      text-align: center; 
+      color: transparent; 
+      text-transform: uppercase;
+      font-family: 'Gotham-Italic';
+      -webkit-text-stroke: 2px var(--color-primary);
+      /* Safari */
+      -webkit-text-fill-color: transparent; 
+    }
+    p {
+      width: 90%;
+      text-align: center;
+      position: relative;
+      font-size: 17px;
+      font-family: 'Gotham-Light';
+      top: -34px;
+      color: #fff;
+      line-height: 1.5;
+    }
+  }
+
+  .dropdown-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .grid-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 40px;
+    }
+  }
+}
