@@ -9,11 +9,10 @@
 > - Start project, dependencies and structure - `2hs`
 > - Create routing - implements dependencies - `2hs`
 > - Create environmet for testing - stage QA - `pending`
-> - Views & Sections - VERSION DESKTOP 1920 x 1080
 >
 
 > [!NOTE]
-> Home Views  Sections:
+> Home Views  Sections - DESKTOP VERSION
 > - Slide Carousel section - `1hs`
 > - Section Items Dropdown - `1,5hs`
 > - Section Function - `1,5hs`
@@ -25,8 +24,7 @@
 >
 
 > [!NOTE]
-> Views & Sections - MOBILE VERSION
-> - Home Views -> Sections:
+> - Home Views  Sections - MOBILE VERSION
 > - Slide Carousel section - `pending`
 > - Section Items Dropdown - `pending`
 > - Section Function - `pending`
