@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion';
 // Assets
 import './home-function.scss'
 import stepone from '../../assets/images/common/step-1.png'
@@ -25,15 +25,15 @@ const HomeFunction = () => {
       </div>
       <div className="step_function">
         <div className="step-container">
-          <div className='image_container'><img src={stepone} alt="check" /></div>
-          <span className='line'></span>
-          <div className='image_container'><img src={steptwo} alt="approve" /></div>
-          <span className='line'></span>
-          <div className='image_container'><img src={stepthree} alt="started" /></div>
+          <motion.div className='image_container' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0 }}><img src={stepone} alt="check" /></motion.div>
+          <motion.span className='line' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5 }}></motion.span>
+          <motion.div className='image_container' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.3 }}><img src={steptwo} alt="approve" /></motion.div>
+          <motion.span className='line' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.4 }}></motion.span>
+          <motion.div className='image_container' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.6 }}><img src={stepthree} alt="started" /></motion.div>
         </div>
       </div>
       <div className="step_description">
-        <div className='step step_one'>
+        <motion.div className='step step_one' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.5 }}>
           <h3>
             <b>1</b>
             Elegí uno de <br /> nuestros planes
@@ -44,8 +44,8 @@ const HomeFunction = () => {
             claro, contratá el plan que mejor se <br />
             adapte a él.
           </p>
-        </div>
-        <div className='step step_two'>
+        </motion.div>
+        <motion.div className='step step_two' initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.8 }}>
           <h3>
             <b>2</b>
             Registrate en <br /> la plataforma
@@ -56,8 +56,8 @@ const HomeFunction = () => {
             y contraseña que podrás utilizar  <br />
             para registrarte en nuestra app.
           </p>
-        </div>
-        <div className='step step_two'>
+        </motion.div>
+        <motion.div className='step step_two' initial={{ opacity: 0 }} animate={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 1.1 }}>
           <h3>
             <b>3</b>
             Comenzá a <br />entrenar 
@@ -68,9 +68,9 @@ const HomeFunction = () => {
             puedas comenzar a  entrenar de  <br />
             inmediato.
           </p>
-        </div>
+        </motion.div>
       </div>
-      <button className='btn-started'>Comencemos!</button>
+      <motion.button className='btn-started' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Comencemos!</motion.button>
       <div className="separator_line_bottom">
         <span className='line'></span>
         <span className='circle'></span>

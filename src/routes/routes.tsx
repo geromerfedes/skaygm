@@ -5,20 +5,18 @@ import { Home, NotFound } from "../views";
 
 const AppRoutes = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Layout>
-          <main id="main_app sky-gym">
-            <Routes>
-              {/* Views */}
-              <Route path="/" index element={<Home />} />
-              {/* Not Found */}
-              <Route path="*" element={<NotFound /> } />
-            </Routes>
-          </main>
-        </Layout>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Layout>
+        <main id="main_app sky-gym">
+          <Routes>
+            {/* Views */}
+            <Route path="/" index element={<Home />} />
+            {/* Not Found */}
+            <Route path="*" element={<NotFound /> } />
+          </Routes>
+        </main>
+      </Layout>
+    </BrowserRouter>
   )
 }
 

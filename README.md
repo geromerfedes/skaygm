@@ -15,11 +15,11 @@
 > - Slide Carousel section - `1hs`
 > - Section Items Dropdown - `1,5hs`
 > - Section Function - `1,5hs`
-> - Section About - `pending`
+> - Section About - `2hs`
 > - Section Clients - `pending`
 > - Section Plains - `pending`
 > - Section Questions - `pending`
-> - Section Footer - `pending`
+> - Section Footer - `0,5hs`
 >
 
 > [!NOTE]

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -7,6 +8,7 @@ import "swiper/css/bundle";
 
 // Assets
 import './home-swiper.scss';
+import logo from '../../assets/images/logo.png';
 import SlideOne from '../../assets/images/backgrounds/slide-1.png';
 import SlideTwo from '../../assets/images/backgrounds/slide-2.png';
 import SlideThree from '../../assets/images/backgrounds/slide-3.png';
@@ -22,6 +24,7 @@ const HomeSwiper = () => {
               <div className="gradient-bottom"></div>
               <img src={SlideOne} alt="Sky Gym 1" />
               <div className="details-slide">
+                <img src={logo} alt="Sky Gym" />
                 <h2>¿Buscás el mejor entrenamiento sin importar dónde estés?</h2>
                 <div className="description">
                   <p>
@@ -33,7 +36,7 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <button className='btn-plain'>Ver planes</button>
+                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
               </div>
             </div>
           </div>
@@ -45,6 +48,7 @@ const HomeSwiper = () => {
               <div className="gradient-bottom"></div>
               <img src={SlideTwo} alt="Sky Gym 2" />
               <div className="details-slide">
+                <img src={logo} alt="Sky Gym" />
                 <h2>¿Buscás el mejor entrenamiento sin importar dónde estés?</h2>
                 <div className="description">
                   <p>
@@ -56,7 +60,7 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <button className='btn-plain'>Ver planes</button>
+                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
               </div>
             </div>
           </div>
@@ -68,6 +72,7 @@ const HomeSwiper = () => {
               <div className="gradient-bottom"></div>
               <img src={SlideThree} alt="Sky Gym 3" />
               <div className="details-slide">
+                <img src={logo} alt="Sky Gym" />
                 <h2>¿Buscás el mejor entrenamiento sin importar dónde estés?</h2>
                 <div className="description">
                   <p>
@@ -79,7 +84,7 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <button className='btn-plain'>Ver planes</button>
+                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
               </div>
             </div>
           </div>

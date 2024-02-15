@@ -1,7 +1,12 @@
-import React from 'react'
-import HomeSwiper from '../components/home/HomeSwiper';
-import HomeDropdown from '../components/home/HomeDropdown';
-import HomeFunction from '../components/home/HomeFunction';
+import { 
+  HomeSwiper, 
+  HomeDropdown, 
+  HomeFunction, 
+  HomeAbout,
+  HomeClient,
+  HomePlans,
+  HomeQuestion
+} from '../components/home/';
 
 const HomeContainer = () => {
   return (
@@ -10,6 +15,10 @@ const HomeContainer = () => {
       <HomeSwiper />
       <HomeDropdown />
       <HomeFunction />
+      <HomeAbout />
+      <HomeClient />
+      <HomePlans />
+      <HomeQuestion />
     </section>
   )
 }
