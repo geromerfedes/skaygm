@@ -107,3 +107,62 @@
   }
   // end line bottom
 }
+
+@media screen and (max-width: 1024px)  {
+  #homeAbout {
+    position: relative;
+    padding-bottom: 6rem;
+    .subtitle_about {
+      h2 {
+        font-size: 45px;
+        text-align: right; 
+      }
+    }
+  
+    .container_about {
+      flex-direction: column;
+      gap: 0 70px;
+      margin-top: 3rem;
+    }
+    
+    .image_about-container {
+      order: 2;
+    }
+  
+    .text_about-container {
+      order: 1;
+      flex-direction: column;
+      > p {
+        color: #fff;
+        font-family: 'Gotham-Light', sans-serif;
+        font-size: 18px;
+        br {
+          display: none;
+        }
+      }
+      h4 {
+        color: #fff;
+        font-family: 'Gotham-Light', sans-serif;
+        font-size: 20px;
+        margin-top: 3rem;
+      }
+      span {
+        flex-direction: column;
+        p {
+          font-size: 64px;
+          b {
+            top: -25px;
+            font-size: 20px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  
+    // line bottom
+    .separator_line_bottom {
+      width: 50%;
+    }
+    // end line bottom
+  }
+}

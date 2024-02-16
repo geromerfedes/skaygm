@@ -16,9 +16,9 @@
 > - Section Items Dropdown - `1,5hs`
 > - Section Function - `1,5hs`
 > - Section About - `2hs`
-> - Section Clients - `pending`
-> - Section Plains - `pending`
-> - Section Questions - `pending`
+> - Section Clients - `1,5hs`
+> - Section Plains - `2h`
+> - Section Questions - `1h`
 > - Section Footer - `0,5hs`
 >
 

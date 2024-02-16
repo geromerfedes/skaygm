@@ -83,3 +83,62 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px)  {
+  #homeQuestion {
+    position: relative;
+    margin-top: 3rem;
+    
+    .question_container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url("../../assets/images/common/unsplash.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      padding: 100px 4%;
+      gap: 20px 0;
+      z-index: 2;
+  
+      h5 {
+        font-size: 36px;
+        z-index: 2;
+        line-height: 50px;
+        font-style: italic;
+      }
+      > p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 32px;
+      }
+      .social-media{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px 0px;
+        .social_container {
+          a { 
+            gap: 0 20px;
+            p {
+              font-size: 26px;
+              padding: 10px;
+            }
+            b {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      &::after {
+        background: rgba(0, 0, 0, 0.1) url('../../assets/images/backgrounds/textura.png');
+      }
+    }
+  }
+  
+}

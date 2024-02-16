@@ -62,3 +62,41 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px)  {
+  #homeClient {
+    position: relative;
+    padding-bottom: 6rem;
+  
+    .subtitle_client {
+      h2 {
+        font-size: 45px;
+      }
+      > p {
+        font-size: 16px;
+        line-height: 30px;
+        br {
+          display: none;
+        }
+      }
+    }
+  
+    .slide_client-container{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5rem;
+
+      .card-slide_video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  
+    .separator_line_bottom {
+      width: 50%;
+    }
+  }
+}

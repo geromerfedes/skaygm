@@ -70,6 +70,59 @@ const HomeFunction = () => {
           </p>
         </motion.div>
       </div>
+      <div className="step_function-mobile">
+        <div className="card">
+          <div className='image_contianer-mobile'>
+            <img src={stepone} alt="Skay gym step one" />
+          </div>
+          <div className='step_mobile'>
+            <h3>
+              <b>1</b>
+              Elegí uno de <br /> nuestros planes
+            </h3>
+            <p>
+              El primer paso es definir tu objetivo <br /> 
+              principal. Una vez que lo tengas <br /> 
+              claro, contratá el plan que mejor se <br />
+              adapte a él.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div className='image_contianer-mobile'>
+            <img src={steptwo} alt="Skay gym step two" />
+          </div>
+          <div className='step_mobile'>
+            <h3>
+              <b>2</b>
+              Registrate en <br /> la plataforma
+            </h3>
+            <p>
+              Una vez hayas adquirido el plan, se <br /> 
+              te enviará un correo con un usuario <br /> 
+              y contraseña que podrás utilizar  <br />
+              para registrarte en nuestra app.
+            </p>
+          </div>
+        </div>
+        <div className="card">
+          <div className='image_contianer-mobile'>
+            <img src={stepthree} alt="Skay gym step three" />
+          </div>
+          <div className='step_mobile'>
+            <h3>
+              <b>3</b>
+              Comenzá a <br />entrenar 
+            </h3>
+            <p>
+              Te asesoraremos con el ingreso a la  <br />
+              sede y con tu rutina para que <br /> 
+              puedas comenzar a  entrenar de  <br />
+              inmediato.
+            </p>
+          </div>
+        </div>
+      </div>
       <motion.button className='btn-started' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Comencemos!</motion.button>
       <div className="separator_line_bottom">
         <span className='line'></span>

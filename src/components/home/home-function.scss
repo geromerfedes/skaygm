@@ -168,4 +168,122 @@
     pointer-events: all;
     cursor: pointer;
   }
+
+  .step_function-mobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px)  {
+  #homeFunction {
+    position: relative;
+    margin-top: 5rem;
+    padding-bottom: 8rem;
+
+    // line top
+    .separator_line {
+      width: 50%;
+    }
+    // end line top
+
+    // title
+    .title_function {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5rem;
+      h2 {
+        font-size: 40px;
+      }
+      .description_function {
+        font-size: 16px;
+        br {
+          display: none;
+        }
+      }
+    }
+    // end title
+  
+  
+    // steps section
+    .step_function {
+      display: none;
+    }
+  
+    .step_description {
+      display: none;
+    }
+
+    .step_function-mobile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 4rem;
+      gap: 60px 0;
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px 0;
+        .image_contianer-mobile {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          box-shadow: 0 0 20px 5px red, inset 0 0 10px 1px red;
+          img {
+            width: 30px;
+            height: 30px;
+            object-fit: contain;
+          }
+        }
+        .step_mobile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 10px 0;
+          h3 {
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            color: #fff;
+            text-transform: uppercase;
+            font-family: 'Gotham-Light';
+            font-style: italic;
+            b {
+              font-family: 'Gotham';
+              font-size: 70px;
+              color: var(--color-primary);
+              font-style: italic;
+            }
+          }
+          p {
+            color: #fff;
+            font-family: 'Gotham-Light';
+            text-align: center;
+          }
+        }
+      }
+    }
+    // end steps section
+  
+  
+    // line bottom
+    .separator_line_bottom {
+      width: 50%;
+    }
+    // end line bottom
+  
+    .btn-started {
+      padding: 25px 60px;
+      width: 90%;
+      margin-top: 7rem;
+    }
+  }
 }

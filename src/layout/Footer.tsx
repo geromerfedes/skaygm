@@ -14,7 +14,7 @@ const Footer = () => {
     >
       <div className="footer-container">
         <img src={logo} alt="Skay Gym Logo" />
-        <h6><img src={copyrightlogo} alt="copyright" /> {new Date().getFullYear()} | Skay Gym - Todos los derechos reservados</h6>
+        <h6><span><img src={copyrightlogo} alt="copyright" /> {new Date().getFullYear()}</span> <br /> <b>|</b> <article>Skay Gym - Todos los derechos reservados</article></h6>
         <p>Desarrolado por <a href="https://www.fedesagency.com" target='_blank' rel="noreferrer">Fedes Agency</a></p>
       </div>
       <span className='footer_circle'></span>

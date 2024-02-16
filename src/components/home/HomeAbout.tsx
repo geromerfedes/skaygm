@@ -7,21 +7,36 @@ import './home-about.scss'
 import aboutImage from '../../assets/images/common/about-img.png'
 
 const HomeAbout = () => {
-  const { ref, inView } = useInView();
+  const { ref: countRef, inView: countInView } = useInView();
+  const { ref: aboutRef, inView: aboutInView } = useInView();
+  
   const [count, setCount] = useState(1);
+  const [aboutCount, setAboutCount] = useState(1);
 
   useEffect(() => {
-    let timer: NodeJS.Timeout;
-    if (inView && count < 70) {
-      timer = setInterval(() => {
+    let countTimer: NodeJS.Timeout;
+    if (countInView && count < 70) {
+      countTimer = setInterval(() => {
         setCount(prevCount => prevCount + 1);
-      }, 80);
+      }, 50);
     }
-
     return () => {
-      clearInterval(timer);
+      clearInterval(countTimer);
     };
-  }, [inView, count]);
+  }, [countInView, count]);
+
+  useEffect(() => {
+    let aboutTimer: NodeJS.Timeout;
+    if (aboutInView && aboutCount < 5) {
+      aboutTimer = setInterval(() => {
+        setAboutCount(prevCount => prevCount + 1);
+      }, 1000);
+    }
+    return () => {
+      clearInterval(aboutTimer);
+    };
+  }, [aboutInView, aboutCount]);
+
 
   return (
     <section className='main-container' id='homeAbout'>
@@ -47,9 +62,9 @@ const HomeAbout = () => {
             bienestar se fusionan de manera armoniosa.
           </p>
           <h4>Contamos actualmente con</h4>
-          <motion.span ref={ref}>
-            <p>5 <b>sedes</b></p>
-            <p>+{count}<b>profesionales</b></p>
+          <motion.span >
+            <p ref={aboutRef}>{aboutCount} <b>sedes</b></p>
+            <p ref={countRef}>+{count}<b>profesionales</b></p>
           </motion.span>
         </div>
       </div>

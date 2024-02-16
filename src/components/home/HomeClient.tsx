@@ -26,11 +26,22 @@ const HomeClient = () => {
       </div>
       <div className="slide_client-container">
       <Swiper 
-        spaceBetween={50} 
-        slidesPerView={3} 
+        spaceBetween={10} 
         autoplay={{ delay: 4500, disableOnInteraction: true }} 
         loop={true} 
-        modules={[ Autoplay ]}>
+        modules={[ Autoplay ]}
+        breakpoints={{
+          724: {
+            slidesPerView: 1,
+          },
+          847: {
+            slidesPerView: 2,
+          },
+          1265: {
+            slidesPerView: 3,
+          }
+        }}
+        >
           <SwiperSlide>
             <div className='card-slide_video'>
               <img src={image01} alt="" />

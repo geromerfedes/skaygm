@@ -1,12 +1,4 @@
-.section-dp {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 4%;
-  margin: 5rem 0;
-
+#sectionDp {
   .subtitle {
     width: 100%;
     display: flex;
@@ -46,6 +38,32 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px)  {
+  #sectionDp {
+    .subtitle {
+      h2 {
+        font-size: 56px;
+      }
+      p {
+        font-size: 16px;
+        font-family: 'Gotham-Light';
+        top: -20px;
+        color: #fff;
+        line-height: 1.5;
+        br {
+          display: none;
+        }
+      }
+    }
+  
+    .dropdown-container {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
     }
   }
 }
