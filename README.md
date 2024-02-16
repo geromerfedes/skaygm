@@ -24,13 +24,13 @@
 
 > [!NOTE]
 > - Home Views  Sections - MOBILE VERSION
-> - Slide Carousel section - `pending`
-> - Section Items Dropdown - `pending`
-> - Section Function - `pending`
-> - Section About - `pending`
-> - Section Clients - `pending`
-> - Section Plains - `pending`
-> - Section Questions - `pending`
-> - Section Footer - `pending`
+> - Slide Carousel section - `2hs`
+> - Section Items Dropdown - `1hs`
+> - Section Function - `3,5hs`
+> - Section About - `2hs`
+> - Section Clients - `2hs`
+> - Section Plains - `1hs`
+> - Section Questions - `0,5hs`
+> - Section Footer - `0,5hs`
 >
 

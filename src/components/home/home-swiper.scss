@@ -114,6 +114,7 @@
     }
   }
 }
+
 // Laptop
 @media screen and (max-width: 1665px) {
   .home-swiper_container {
@@ -152,16 +153,52 @@
   }
 }
 
-@media screen and (max-height: 830px) {
+// Laptop Small
+@media screen and (max-width: 1270px) {
   .home-swiper_container {
-    height: 95dvh;
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+  
     .box-slide {
-      height: 95dvh;
       .image-contain {
         .details-slide {
+          h2 {
+            font-size: 55px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-height: 830px) {
+  .home-swiper_container {
+    height: 97dvh;
+    .box-slide {
+      height: 97dvh;
+      .image-contain {
+        .details-slide {
+          transform: translate(-50%, -55%);
           > img {
             width: 140px;
             margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-height: 675px) {
+  .home-swiper_container {
+    height: 100dvh;
+    .box-slide {
+      height: 100dvh;
+      .image-contain {
+        .details-slide {
+          > img {
+            width: 120px;
+            margin-bottom: 0;
           }
         }
       }
