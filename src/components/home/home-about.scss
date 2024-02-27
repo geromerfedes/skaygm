@@ -108,6 +108,22 @@
   // end line bottom
 }
 
+@media screen and (max-width: 1405px)  {
+  #homeAbout {
+    .image_about-container {
+      width: 100%;
+    }
+    .text_about-container {
+      width: 100%;
+      > p {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1024px)  {
   #homeAbout {
     position: relative;

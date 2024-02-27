@@ -36,7 +36,9 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                <a href="#homePlans">
+                  <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                </a>
               </div>
             </div>
           </div>
@@ -60,7 +62,9 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                <a href="#homePlans">
+                  <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                </a>
               </div>
             </div>
           </div>
@@ -84,7 +88,9 @@ const HomeSwiper = () => {
                     Ahora en <b>todo el país.</b> Reserva tu lugar ya!
                   </p>
                 </div>
-                <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                <a href="#homePlans">
+                  <motion.button className='btn-plain' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Ver planes</motion.button>
+                </a>
               </div>
             </div>
           </div>
