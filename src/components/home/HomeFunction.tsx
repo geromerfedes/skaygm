@@ -123,7 +123,7 @@ const HomeFunction = () => {
           </div>
         </div>
       </div>
-      <motion.button className='btn-started' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Quiero empezar ahora!</motion.button>
+      <motion.a className='btn-started' role='button' href="#homePlans" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} transition={{ duration: 0.2 }}>Quiero empezar ahora!</motion.a>
       <div className="separator_line_bottom">
         <span className='line'></span>
         <span className='circle'></span>

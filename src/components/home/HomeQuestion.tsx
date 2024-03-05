@@ -23,7 +23,7 @@ const HomeQuestion = () => {
             </a>
           </div>
           <div className="social_container">
-            <a href="https://www.instagram.com/skaygym/" target="_blank" rel="noreferrer">
+            <a href="/docs/SkayGym_TerminosYCondiciones.pdf" download="SkayGym | Términos y Condiciones.pdf">
               <p><ImHammer2 /></p>
               <b>Términos y condiciones</b>
             </a>
