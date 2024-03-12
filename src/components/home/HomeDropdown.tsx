@@ -20,7 +20,7 @@ const HomeDropdown = () => {
             <DropdownComponent title="Profesionales ocupados" isOpenInitially={false} description="Personas con agendas apretadas que buscan flexibilidad para hacer ejercicio en cualquier momento y lugar." />
             <DropdownComponent title="Amantes del fitness en casa" isOpenInitially={false} description="Individuos que prefieren entrenar en la comodidad de su hogar en lugar de ir a un gimnasio." />
             <DropdownComponent title="Viajeros frecuentes" isOpenInitially={false} description="Aquellos que están constantemente en movimiento y desean mantenerse en forma mientras viajan." />
-            <DropdownComponent title="Papas y Mamás ocupadas" isOpenInitially={false} description="Madres que buscan soluciones convenientes para hacer ejercicio en casa mientras cuidan de sus hijos." />
+            <DropdownComponent title="Papás y Mamás ocupados" isOpenInitially={false} description="Madres y Padres que buscan soluciones convenientes para hacer ejercicio en casa mientras cuidan de sus hijos." />
             <DropdownComponent title="Freelancers y trabajadores remotos" isOpenInitially={false} description="Profesionales que trabajan desde casa y desean incorporar fácilmente sesiones de entrenamiento en su rutina diaria." />
           </div>
           <div className='second_row'>

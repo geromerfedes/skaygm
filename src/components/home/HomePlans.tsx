@@ -60,7 +60,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Inicial para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"
@@ -115,7 +115,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Avanzado para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"
@@ -170,7 +170,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Deportista para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"
