@@ -5,16 +5,18 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/bundle";
 
-import { motion } from "framer-motion";
+import { appConfig } from "../../config/applicationConfig";
 
 // Assets
 import "./home-client.scss";
 
-import image01 from "../../assets/images/common/socio01.png";
-import image02 from "../../assets/images/common/socio02.png";
-import image03 from "../../assets/images/common/socio03.png";
+import image01 from "../../assets/images/clients/Gala01.png";
+import image02 from "../../assets/images/clients/Skay01.jpg";
+import image03 from "../../assets/images/clients/Testimonios01.jpg";
+import image04 from "../../assets/images/clients/Testimonios02.jpg";
+import image05 from "../../assets/images/clients/Viernes01.jpg";
+import { FaPlay } from "react-icons/fa";
 
-import { appConfig } from "../../config/applicationConfig";
 import ModalVideo from "../modals/ModalVideo";
 
 const HomeClient = () => {
@@ -63,52 +65,34 @@ const HomeClient = () => {
             }}
           >
             <SwiperSlide>
-              <motion.div
-                whileTap={{ scale: 0.5 }}
-                transition={{ duration: 0.1 }}
-                className="card-slide_video"
-                onClick={() =>
-                  handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid01)
-                }
-              >
-                <img src={image01} alt="" />
-              </motion.div>
+              <article className="card-slide_video">
+                <img src={image01} alt="Imagen de Gala Skay" />
+                <FaPlay className="icon_play" onClick={() => handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid01)} />
+              </article>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                whileTap={{ scale: 0.5 }}
-                transition={{ duration: 0.1 }}
-                className="card-slide_video"
-                onClick={() =>
-                  handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid02)
-                }
-              >
-                <img src={image02} alt="" />
-              </motion.div>
+              <article className="card-slide_video">
+                <img src={image02} alt="Skay presentacion" />
+                <FaPlay className="icon_play" onClick={() => handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid02)} />
+              </article>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                whileTap={{ scale: 0.5 }}
-                transition={{ duration: 0.1 }}
-                className="card-slide_video"
-                onClick={() =>
-                  handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid03)
-                }
-              >
-                <img src={image03} alt="" />
-              </motion.div>
+              <article className="card-slide_video">
+                <img src={image03} alt="Testimonios Skay" />
+                <FaPlay className="icon_play" onClick={() => handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid03)} />
+              </article>
             </SwiperSlide>
             <SwiperSlide>
-              <motion.div
-                whileTap={{ scale: 0.5 }}
-                transition={{ duration: 0.1 }}
-                className="card-slide_video"
-                onClick={() =>
-                  handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid04)
-                }
-              >
-                <img src={image01} alt="" />
-              </motion.div>
+              <article className="card-slide_video">
+                <img src={image04} alt="Testimonios Skay" />
+                <FaPlay className="icon_play" onClick={() => handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid04)} />
+              </article>
+            </SwiperSlide>
+            <SwiperSlide>
+              <article className="card-slide_video">
+                <img src={image05} alt="Viernes en Skay" />
+                <FaPlay className="icon_play" onClick={() => handleImageClick(appConfig.CLOUD_VIDEOS_URL.vid05)} />
+              </article>
             </SwiperSlide>
           </Swiper>
         </div>

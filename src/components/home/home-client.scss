@@ -37,6 +37,41 @@
     display: flex;
     align-items: center;
     margin-top: 5rem;
+
+    .card-slide_video{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid var(--color-primary);
+      width: fit-content;
+      position: relative;
+
+      img{
+        max-height: 620px;
+        object-fit: contain;
+      }
+
+      .icon_play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 99;
+        color: #ccc;
+        font-size: 4em;
+        opacity: 0.5;
+        transition: opacity 0.3s ease-in-out;
+        cursor: pointer;
+      }
+
+      &:hover{
+        .icon_play {
+          opacity: 1;
+          color: #fff;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
   }
 
   .separator_line_bottom {
@@ -92,6 +127,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 2px solid var(--color-primary);
+        height: auto;
+        width: fit-content;
+
+        img{
+          width: fit-content;
+        }
       }
     }
   

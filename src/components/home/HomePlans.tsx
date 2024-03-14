@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 // Assets
 import { FaCheck } from "react-icons/fa6";
 import "./home-plans.scss";
+import { appConfig } from "../../config/applicationConfig";
 
 const HomePlans = () => {
   return (
@@ -49,9 +50,9 @@ const HomePlans = () => {
             </div>
           </div>
           <div className="price">
-            <div className="price_old"><h5>$ 17.000</h5></div>
-            <div className="discount_title">Descuento <br />por lanzamiento</div>
-            <div className="price_new"><h5>$ 15.000</h5> <b>p/ mes</b></div>
+            {/* <div className="price_old"><h5>$ 17.000</h5></div> */}
+            {/* <div className="discount_title">Descuento <br />por lanzamiento</div> */}
+            <div className="price_new"><h5>$ 17.000</h5> <b>p/ mes</b></div>
           </div>
           <motion.button
             className="btn_buy-plain"
@@ -60,7 +61,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=${appConfig.NUMBER_PHONE}&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Inicial para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"
@@ -104,9 +105,9 @@ const HomePlans = () => {
             </div>
           </div>
           <div className="price">
-            <div className="price_old"><h5>$ 17.000</h5></div>
-            <div className="discount_title">Descuento <br />por lanzamiento</div>
-            <div className="price_new"><h5>$ 15.000</h5> <b>p/ mes</b></div>
+            {/* <div className="price_old"><h5>$ 17.000</h5></div> */}
+            {/* <div className="discount_title">Descuento <br />por lanzamiento</div> */}
+            <div className="price_new"><h5>$ 17.000</h5> <b>p/ mes</b></div>
           </div>
           <motion.button
             className="btn_buy-plain"
@@ -115,7 +116,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=${appConfig.NUMBER_PHONE}&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Avanzado para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"
@@ -159,9 +160,9 @@ const HomePlans = () => {
             </div>
           </div>
           <div className="price">
-            <div className="price_old"><h5>$ 20.900</h5></div>
-            <div className="discount_title">Descuento <br />por lanzamiento</div>
-            <div className="price_new"><h5>$ 18.900</h5> <b>p/ mes</b></div>
+            {/* <div className="price_old"><h5>$ 20.900</h5></div> */}
+            {/* <div className="discount_title">Descuento <br />por lanzamiento</div> */}
+            <div className="price_new"><h5>$ 19.500</h5> <b>p/ mes</b></div>
           </div>
           <motion.button
             className="btn_buy-plain"
@@ -170,7 +171,7 @@ const HomePlans = () => {
             transition={{ duration: 0.2 }}
             onClick={() => {
               window.open(
-                `https://api.whatsapp.com/send?phone=542216554482&text=${encodeURIComponent(
+                `https://api.whatsapp.com/send?phone=${appConfig.NUMBER_PHONE}&text=${encodeURIComponent(
                   "Hola. Me gustaría adquirir el Plan Deportista para la sede virtual. Mi nombre completo es … y tengo … años."
                 )}`,
                 "_blank"

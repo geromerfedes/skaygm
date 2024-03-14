@@ -5,11 +5,13 @@ export const appConfig = {
   version: ver,
   author: 'Geronimo Mercante',
   CLOUD_VIDEOS_URL: {
-    vid01: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2F01.mp4?alt=media&token=a0ca5ef4-0c7d-4599-9d8f-a310dc9847ad',
-    vid02: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2F02.mp4?alt=media&token=ee7dba6b-bf71-49b2-95de-d1c3a7d5fa8d',
-    vid03: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2F03.mp4?alt=media&token=df5c2b3b-1c81-4092-8624-9f0b2665b981',
-    vid04: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2F04.mp4?alt=media&token=6ff72587-f167-428f-a4e3-58a6d40cd14c'
+    vid01: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FGala01.mp4?alt=media&token=7ae9b377-35a6-4b0d-94b1-e57e9d7977a6',
+    vid02: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FSkay01.mp4?alt=media&token=f9237c4b-2052-494d-9b16-f090f3e315e4',
+    vid03: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FTestimonios01.mp4?alt=media&token=7df8381f-9e00-4cba-af06-e48fbb33da3b',
+    vid04: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FTestimonios02.mp4?alt=media&token=a3b89c90-dd28-48da-bf58-d5c11db1d077',
+    vid05: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FViernes01.mp4?alt=media&token=6fc10c4c-c892-493a-8939-21379e1266e7',
   },
+  NUMBER_PHONE: '542213146591',
   COUNTRY_CODES: [
     {
       'text': 'Seleccione un pais',
