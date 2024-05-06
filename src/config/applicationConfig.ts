@@ -4,6 +4,11 @@ export const appConfig = {
   name: 'SkayGym',
   version: ver,
   author: 'Geronimo Mercante',
+  PAYMENT_LINK: {
+    pay_initial: 'https://mobbex.com/p/subscriptions/subscribe/5WD9W8TIEG548GNWUJ',
+    pay_advanced: 'https://mobbex.com/p/subscriptions/subscribe/VP78ZQ7XR981YQ7BQP',
+    pay_athlete: 'https://mobbex.com/p/subscriptions/subscribe/4FAGE7SIMXCU901VXE'
+  },
   CLOUD_VIDEOS_URL: {
     vid01: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FGala01.mp4?alt=media&token=7ae9b377-35a6-4b0d-94b1-e57e9d7977a6',
     vid02: 'https://firebasestorage.googleapis.com/v0/b/skay-gym.appspot.com/o/videos%2FSkay01.mp4?alt=media&token=f9237c4b-2052-494d-9b16-f090f3e315e4',
